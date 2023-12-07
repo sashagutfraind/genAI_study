@@ -1,8 +1,9 @@
-# Generative AI - minimal study sheet
+# Generative AI - core study sheet
 
-Generative AI (including language, image, time etc) is massive new area of data science, with its own curriculum. Training in classical ML is helpful but is insufficient for understanding the theory and implementation of generative AI methods.
+Generative AI (including language, image, time etc) is massive new area of data science, with its own curriculum. 
+Below is a core curriculum for enter this field
 
-# Topic list
+Subject areas
 - data preparation and hardware
 - neural architectures
 - training and loss
@@ -28,12 +29,11 @@ Generative AI (including language, image, time etc) is massive new area of data 
 - large language models (LLMs)
 - CNN
 - RNN
-- notable models: CLIP, Siamese
 - variational auto-encoders
 - masked language modeling
 - dropout
-- activation functions in hidden layers: ReLU, GLU
-- activation functions in output layer: logit, softmax, linear
+- activation functions in hidden layers
+- activation functions in output layer
 
 # Pre-training
 - loss functions
@@ -44,19 +44,16 @@ Generative AI (including language, image, time etc) is massive new area of data 
 - vanishing gradients
 
 # Fine-tuning
-- adapters
-- parameter-efficient fine-tuning
-- instruction following
-- in-context learning
-- prompting techniques
-	- chain-of-thought
-	- medprompt
-- zero and few-shot learning
+- parameter-efficient fine-tuning, e.g. LoRA
 - supervised fine-tuning
 - RLHF
-- output evaluation with NLP 
+- instruction following
+- in-context learning
+- zero and few-shot learning
+- prompting techniques, e.g. chain-of-thought, medprompt
+- LLMP output evaluation, e.g. critics, ROUGE 
 
-# Software architectures
+# Software solutions
 - hallucinations and countermeasures
 - toxicity 
 - vectorstore and cosine similarity
@@ -65,6 +62,13 @@ Generative AI (including language, image, time etc) is massive new area of data 
 - multi-agent systems
 
 # Others
+## Methods
 - distillation
+- PPO, DPO
 
-- 
+
+## Special architectures
+- CLIP
+- ResNet
+- twin output models: Siamese, TarNet
+- ViT visual transformer
