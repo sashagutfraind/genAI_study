@@ -23,9 +23,8 @@ Subject areas
 
 
 # Neural architectures
-- quantization
 - transformers
-- encode and decoder
+- encoder and decoder
 - large language models (LLMs)
 - CNN
 - RNN
@@ -34,6 +33,7 @@ Subject areas
 - dropout
 - activation functions in hidden layers
 - activation functions in output layer
+- quantization
 
 # Pre-training
 - loss functions
